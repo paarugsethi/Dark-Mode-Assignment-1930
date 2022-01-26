@@ -1,0 +1,168 @@
+.CardDiv{
+    left: 8.47%;
+    right: 60.14%;
+    top: 11.04%;
+    bottom: 38.77%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px #E5E9F2;
+    border-radius: 5px;
+    width: 452px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.darkCardDiv{
+    left: 8.47%;
+    right: 60.14%;
+    top: 11.04%;
+    bottom: 38.77%;
+    background: #292E33;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 452px;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.CardDiv > div > h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #31394D;
+    margin-left: 20px;
+}
+
+.darkCardDiv > div > h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.CardDiv > div{
+    text-align: left;
+}
+
+.darkCardDiv > div{
+    text-align: left;
+}
+
+.personCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid #EBEDF4;
+    padding: 22px 0;
+}
+
+.darkPersonCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid #33393F;
+    padding: 22px 0;
+}
+
+.personInfo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.levelInfo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 40%;
+}
+
+.imgDiv{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cardName{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #31394D;
+    margin: 0;
+}
+
+.darkCardName{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.cardPlace{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #748AA1;
+    margin: 0;
+
+}
+
+.userName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.levelBar{
+    margin-left: 10px;
+}
+
+.levelText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #31394D;
+    margin: 0;
+}
+
+.darkLevelText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.pointsText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    color: #31394D;
+    margin: 0;
+}
+
+.darkPointsText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0;
+}

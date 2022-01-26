@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from 'react';
+import styles from './App.module.css';
+import Page from './Components/Page';
+import { ThemeContext } from './Context/ThemeContextProvider';
 
 function App() {
+  const [{theme, themeData}, toggleTheme, isDarkMode] = useContext(ThemeContext);
+  
+  if (theme === "light"){
+    document.body.style = 'background: #F5F6FA;';
+  }
+  else{
+    document.body.style = 'background: #1F2327;';
+  }
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <Page/>
     </div>
   );
 }

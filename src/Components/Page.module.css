@@ -1,0 +1,78 @@
+.MainLayout{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.HeadDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+}
+
+.dashboardHead{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #31394D;
+}
+
+.darkDashboardHead{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.rectangle{
+    width: 87px;
+    height: 45px;
+    left: 494px;
+    top: 28px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.darkRectangle{
+    width: 87px;
+    height: 45px;
+    left: 494px;
+    top: 28px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.ellipse{
+    width: 47px;
+    height: 47px;
+    left: 493px;
+    top: 27px;
+    border-radius: 50%;
+    background: #2991CB;
+}
+
+.darkEllipse{
+    width: 47px;
+    height: 47px;
+    left: 534px;
+    top: 27px;
+    border-radius: 50%;
+    background: #29CB97;
+}
+
+.modeButton{
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+}

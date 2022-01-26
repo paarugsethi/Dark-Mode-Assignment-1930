@@ -1,0 +1,68 @@
+.NavbarBg{
+    position: absolute;
+    left: 0%;
+    right: 94.38%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #E5E9F2;
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.darkNavbarBg{
+    position: absolute;
+    left: 0%;
+    right: 94.38%;
+    top: 0%;
+    bottom: 0%;
+    background: #16191C;
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hover{
+    width: 96px;
+    height: 70px;
+    left: 6.32%;
+    right: 87.01%;
+    top: 29.3%;
+    bottom: 63.87%;
+    background: linear-gradient(180deg, #679CF6 0%, #4072EE 100%);
+    box-shadow: 0px 5px 15px #ACB2C1;
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkHover{
+    width: 96px;
+    height: 70px;
+    left: 6.32%;
+    right: 87.01%;
+    top: 29.3%;
+    bottom: 63.87%;
+    background: linear-gradient(180deg, #679CF6 0%, #4072EE 100%);
+    box-shadow: 0px 5px 15px rgba(7, 8, 8, 0.5);
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarBg > div{
+    cursor: pointer;
+}
